@@ -34,29 +34,29 @@ This project implements API endpoints for managing schedules and tasks, utilisin
 3. Install the dependencies:
 
 ```
-	npm install
+npm install
 ```
 
 4. Set up the database docker container.
 ```
-	docker-compose -f compose.yml up
+docker-compose -f compose.yml up
 ```
 
 5. Run the database migrations:
 
 ```
-	npm run prisma:migrate
+npm run prisma:migrate
 ```
 6. Generate the Prisma client:
 
 ```
-	npm run prisma:generate
+npm run prisma:generate
 ```
 
 7. Start the application: 
 
 ```
-	npm start
+npm start
 ```
 
 ## Data Model
@@ -85,22 +85,22 @@ This project implements API endpoints for managing schedules and tasks, utilisin
 
 - **Create Schedule**:
 ```
-	POST /schedules
+POST /schedules
 ```
 
 -  **Get Schedules**:
 ```
-	GET /schedules
+GET /schedules
 ```
 
 -  **Update Schedule**:
 ```
-	PUT /schedules/{id}
+PUT /schedules/{id}
 ```
 
 -  **Delete Schedule**:
 ```
-	DELETE /schedules/{id}
+DELETE /schedules/{id}
 ```
 
 
@@ -108,22 +108,22 @@ This project implements API endpoints for managing schedules and tasks, utilisin
 
 -  **Create Task**:
 ```
-	POST /tasks
+POST /tasks
 ```
 
 -  **Get Tasks**:
 ```
-	GET /tasks
+GET /tasks
 ```
 
 -  **Update Task**:
 ```
-	PUT /tasks/{id}
+PUT /tasks/{id}
 ```
 
 -  **Delete Task**:
 ```
-	DELETE /tasks/{id}
+DELETE /tasks/{id}
 ```
 
 ## Tests
@@ -131,7 +131,7 @@ Run both unit and e2e tests.
 - **Running All Tests**:
 
 ```
-	npm run test
+npm run test
 ```
 
 ## Unit Tests
@@ -139,7 +139,7 @@ Unit tests are implemented to validate the functionality of the API services.
 - **Running Unit Tests**:
 
 ```
-	npm run test:unit
+npm run test:unit
 ```
 
 ## E2E Tests
@@ -147,7 +147,7 @@ E2E tests are implemented to validate the functionality of the API endpoints.
 - **Running E2E Tests**:
 
 ```
-	npm run test:e2e
+npm run test:e2e
 ```
 
 ## Future Enhancements
